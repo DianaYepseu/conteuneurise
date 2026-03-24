@@ -1,0 +1,410 @@
+00:00:00.006734 main     VirtualBox COM Server 7.2.6 r172322 win.amd64 (Jan 30 2026 17:17:49) release log
+00:00:00.006740 main     Log opened 2026-03-24T13:03:41.876063300Z
+00:00:00.006740 main     Build Type: release
+00:00:00.006746 main     OS Product: Windows 11
+00:00:00.006906 main     OS Release: 10.0.26100.7171
+00:00:00.006907 main     OS Service Pack: 
+00:00:00.051278 main     DMI Product Name: Dell Pro Max 14 MC14250
+00:00:00.069505 main     DMI Product Version: 
+00:00:00.069524 main     Firmware type: UEFI
+00:00:00.070746 main     Secure Boot: Enabled
+00:00:00.070801 main     Host RAM: 32212MB (31.4GB) total, 17491MB (17.0GB) available
+00:00:00.070824 main     Executable: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
+00:00:00.070825 main     Process ID: 7544
+00:00:00.070826 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.070836 main     Windows Features:
+00:00:00.070836 main       Core Isolation (Memory Integrity): ENABLED
+00:00:00.190634          VirtualBox: object creation starts
+00:00:00.191178          Home directory: 'C:\Users\Joun\.VirtualBox'
+00:00:00.191494          Installed Drivers:
+00:00:00.216435            C:\Windows\system32\DRIVERS\VBoxSup.sys (Version: 7.2.6.22322)
+00:00:00.217186            C:\Windows\system32\DRIVERS\VBoxNetLwf.sys (Version: 7.2.6.22322)
+00:00:00.217697            C:\Windows\system32\DRIVERS\VBoxUSBMon.sys (Version: 7.2.6.22322)
+00:00:00.218075            C:\Windows\system32\DRIVERS\VBoxNetAdp6.sys (Version: 7.2.6.22322)
+00:00:00.223936          usbLibGetDevices: Starting USB device enumeration
+00:00:00.297484          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&11c90e6f&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+00:00:00.297586          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&11c90e6f&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:00:00.300323          usbLibGetDevices: Found 2 USB devices, 0 captured
+00:00:00.300443          USB: Unknown USB device detected (idVendor: 0x0bda, idProduct: 0x5598)
+00:00:00.300554          USB: Unknown USB device detected (idVendor: 0x8087, idProduct: 0x0037)
+00:00:00.353106          netIfIsWireless: CreateFile on '\\.\{ED22CEC9-7DB4-4192-ADD1-0D82C70E1EB8}' failed with rcWin=2 (0x2) - ignoring
+00:00:00.354744          netIfIsWireless: CreateFile on '\\.\{FD33FAB9-2313-450D-BBF9-F41A4138DA5A}' failed with rcWin=2 (0x2) - ignoring
+00:00:00.361549          HostDnsMonitor: initializing
+00:00:00.378003          HostDnsMonitor: updating information
+00:00:00.378053          HostDnsMonitor: old information
+00:00:00.378053            no server entries
+00:00:00.378054            no domain set
+00:00:00.378054            no search string entries
+00:00:00.378055          HostDnsMonitor: new information
+00:00:00.378055            server 1: 24.201.245.77
+00:00:00.378055            server 2: 24.200.243.189
+00:00:00.378055            no domain set
+00:00:00.378056            no search string entries
+00:00:00.397769          VD: VDInit finished with VINF_SUCCESS
+00:00:00.402815          VirtualBox: object created
+00:00:01.417835          Saving settings file "C:\Users\Joun\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:01.421348          Finished saving settings file "C:\Users\Joun\.VirtualBox\VirtualBox.xml"
+00:00:01.421580          Saving settings file "C:\Users\Joun\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:01.425275          Finished saving settings file "C:\Users\Joun\.VirtualBox\VirtualBox.xml"
+00:00:01.425666          Saving settings file "C:\Users\Joun\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:01.429122          Finished saving settings file "C:\Users\Joun\.VirtualBox\VirtualBox.xml"
+00:00:01.820638          Saving settings file "C:\Users\Joun\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:01.823248          Finished saving settings file "C:\Users\Joun\.VirtualBox\VirtualBox.xml"
+00:00:06.719797          Saving settings file "C:\Users\Joun\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:06.722826          Finished saving settings file "C:\Users\Joun\.VirtualBox\VirtualBox.xml"
+00:11:33.898219 dns-monitor HostDnsMonitor: updating information
+00:11:33.898245 dns-monitor HostDnsMonitor: unchanged
+00:42:50.054786          Saving settings file "C:\Users\Joun\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:42:50.057313          Finished saving settings file "C:\Users\Joun\.VirtualBox\VirtualBox.xml"
+00:42:50.057760          Saving settings file "C:\Users\Joun\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:42:50.059126          Finished saving settings file "C:\Users\Joun\.VirtualBox\VirtualBox.xml"
+00:45:08.577082 createBase Saving settings file "C:\Users\Joun\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:45:08.586515 createBase Finished saving settings file "C:\Users\Joun\.VirtualBox\VirtualBox.xml"
+00:45:08.592922          Platform architecture set to 'x86'
+00:45:08.593139          Platform architecture set to 'x86'
+00:45:08.593151          Platform architecture set to 'x86'
+00:45:08.593843          Platform architecture set to 'x86'
+00:45:08.594845          Saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox" with version "1.19-windows"
+00:45:08.596724          Finished saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox"
+00:45:08.596887          Saving settings file "C:\Users\Joun\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:45:08.598938          Finished saving settings file "C:\Users\Joun\.VirtualBox\VirtualBox.xml"
+00:45:08.601232          Platform architecture set to 'x86'
+00:45:08.602771          Saving settings file "C:\Users\Joun\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:45:08.605252          Finished saving settings file "C:\Users\Joun\.VirtualBox\VirtualBox.xml"
+00:45:08.606176          Saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox" with version "1.19-windows"
+00:45:08.607567          Finished saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox"
+00:45:08.608398          Saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox" with version "1.19-windows"
+00:45:08.610459          Finished saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox"
+00:45:08.610850          Saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox" with version "1.19-windows"
+00:45:08.612395          Finished saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox"
+00:45:08.615853          UnattendedInstaller::initInstaller: UnattendedInstaller::savePassedData(): 
+00:45:08.639359          Platform architecture set to 'x86'
+00:45:08.643019          Saving settings file "C:\Users\Joun\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:45:08.644827          Finished saving settings file "C:\Users\Joun\.VirtualBox\VirtualBox.xml"
+00:45:08.644908          Saving settings file "C:\Users\Joun\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:45:08.646971          Finished saving settings file "C:\Users\Joun\.VirtualBox\VirtualBox.xml"
+00:45:08.647152          Saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox" with version "1.19-windows"
+00:45:08.648579          Finished saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox"
+00:45:08.660573          Launched VM: 3685435072 pid: 12936 (0x3288) frontend: GUI/Qt name: UbuntuServerAlpha
+00:45:08.705993          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:45:15.830714          Saving settings file "C:\Users\Joun\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:45:15.835933          Finished saving settings file "C:\Users\Joun\.VirtualBox\VirtualBox.xml"
+00:45:15.843455          Platform architecture set to 'x86'
+00:45:16.065534          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:45:20.660785          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:45:25.411618          netIfIsWireless: CreateFile on '\\.\{ED22CEC9-7DB4-4192-ADD1-0D82C70E1EB8}' failed with rcWin=2 (0x2) - ignoring
+00:45:25.412662          netIfIsWireless: CreateFile on '\\.\{FD33FAB9-2313-450D-BBF9-F41A4138DA5A}' failed with rcWin=2 (0x2) - ignoring
+00:45:25.416907          Saving settings file "C:\Users\Joun\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:45:25.419796          Finished saving settings file "C:\Users\Joun\.VirtualBox\VirtualBox.xml"
+00:45:25.420244          Saving settings file "C:\Users\Joun\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:45:25.422549          Finished saving settings file "C:\Users\Joun\.VirtualBox\VirtualBox.xml"
+00:45:25.422987          Saving settings file "C:\Users\Joun\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:45:25.425475          Finished saving settings file "C:\Users\Joun\.VirtualBox\VirtualBox.xml"
+00:45:25.426007          Saving settings file "C:\Users\Joun\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:45:25.428217          Finished saving settings file "C:\Users\Joun\.VirtualBox\VirtualBox.xml"
+00:45:25.428685          Saving settings file "C:\Users\Joun\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:45:25.431557          Finished saving settings file "C:\Users\Joun\.VirtualBox\VirtualBox.xml"
+00:45:25.678128          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:45:25.678771          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:45:25.694371          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+00:45:25.702687          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+00:45:25.704129          Saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox" with version "1.19-windows"
+00:45:25.706297          Finished saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox"
+00:45:25.717582          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:45:26.817949          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:45:26.818287          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:45:26.819112          HostDnsMonitorProxy::GetDomainName: no domain set
+00:45:26.819150          HostDnsMonitorProxy::GetNameServers:
+00:45:26.819155            name server 1: 24.201.245.77
+00:45:26.819158            name server 2: 24.200.243.189
+00:45:26.819191          HostDnsMonitorProxy::GetSearchStrings:
+00:45:26.819196            no search string entries
+00:45:26.840831          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:45:26.872574          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:45:30.875173          Saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox" with version "1.19-windows"
+00:45:30.877608          Finished saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox"
+00:45:30.906606          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:45:36.768449          Saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox" with version "1.19-windows"
+00:45:36.772340          Finished saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox"
+00:45:36.781210          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:45:42.880470          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:45:42.900844          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:45:42.925367          Saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox" with version "1.19-windows"
+00:45:42.929123          Finished saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox"
+00:45:42.947931          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:45:42.953797          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:45:44.823789          Platform architecture set to 'x86'
+00:45:44.826551          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:45:44.853642          netIfIsWireless: CreateFile on '\\.\{ED22CEC9-7DB4-4192-ADD1-0D82C70E1EB8}' failed with rcWin=2 (0x2) - ignoring
+00:45:44.854497          netIfIsWireless: CreateFile on '\\.\{FD33FAB9-2313-450D-BBF9-F41A4138DA5A}' failed with rcWin=2 (0x2) - ignoring
+00:45:44.874685          netIfIsWireless: CreateFile on '\\.\{ED22CEC9-7DB4-4192-ADD1-0D82C70E1EB8}' failed with rcWin=2 (0x2) - ignoring
+00:45:44.875631          netIfIsWireless: CreateFile on '\\.\{FD33FAB9-2313-450D-BBF9-F41A4138DA5A}' failed with rcWin=2 (0x2) - ignoring
+00:45:45.052623          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:46:51.040454          Platform architecture set to 'x86'
+00:46:51.077252          Saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox" with version "1.19-windows"
+00:46:51.080280          Finished saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox"
+00:46:51.118384          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:46:53.411945          Launched VM: 3676046464 pid: 21372 (0x537c) frontend: GUI/Qt name: UbuntuServerAlpha
+00:46:53.436358          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:47:00.152682          Platform architecture set to 'x86'
+00:47:00.274162          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:47:01.820129          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:47:07.024777          netIfIsWireless: CreateFile on '\\.\{ED22CEC9-7DB4-4192-ADD1-0D82C70E1EB8}' failed with rcWin=2 (0x2) - ignoring
+00:47:07.025490          netIfIsWireless: CreateFile on '\\.\{FD33FAB9-2313-450D-BBF9-F41A4138DA5A}' failed with rcWin=2 (0x2) - ignoring
+00:47:07.121062          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:47:07.121500          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:47:07.133349          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+00:47:07.153995          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+00:47:07.155304          Saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox" with version "1.19-windows"
+00:47:07.157392          Finished saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox"
+00:47:07.164842          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:47:07.219230          netIfIsWireless: CreateFile on '\\.\{ED22CEC9-7DB4-4192-ADD1-0D82C70E1EB8}' failed with rcWin=2 (0x2) - ignoring
+00:47:07.219964          netIfIsWireless: CreateFile on '\\.\{FD33FAB9-2313-450D-BBF9-F41A4138DA5A}' failed with rcWin=2 (0x2) - ignoring
+00:47:07.283240          NetworkServiceRunning: started 'VBoxNetDHCP.exe', pid 00002d18
+00:47:07.695075          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:47:07.695388          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:47:07.695753          HostDnsMonitorProxy::GetDomainName: no domain set
+00:47:07.695799          HostDnsMonitorProxy::GetNameServers:
+00:47:07.695804            name server 1: 24.201.245.77
+00:47:07.695808            name server 2: 24.200.243.189
+00:47:07.695837          HostDnsMonitorProxy::GetSearchStrings:
+00:47:07.695842            no search string entries
+00:47:07.714327          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:47:07.737236          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:47:11.562013          Saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox" with version "1.19-windows"
+00:47:11.564664          Finished saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox"
+00:47:11.569831          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:47:13.765921          Saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox" with version "1.19-windows"
+00:47:13.768740          Finished saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox"
+00:47:13.775292          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:50:48.638155          Saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox" with version "1.19-windows"
+00:50:48.641397          Finished saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox"
+00:50:48.649846          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:50:49.487828          Saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox" with version "1.19-windows"
+00:50:49.491449          Finished saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox"
+00:50:49.497079          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:50:51.955142          Saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox" with version "1.19-windows"
+00:50:51.958116          Finished saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox"
+00:50:51.964204          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:50:52.406633          Saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox" with version "1.19-windows"
+00:50:52.408703          Finished saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox"
+00:50:52.416944          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:50:54.952739          Saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox" with version "1.19-windows"
+00:50:54.955641          Finished saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox"
+00:50:54.960860          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:50:55.968063          Saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox" with version "1.19-windows"
+00:50:55.970809          Finished saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox"
+00:50:55.991501          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:51:56.657876          Saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox" with version "1.19-windows"
+00:51:56.660578          Finished saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox"
+00:51:56.674992          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:52:00.671920          Saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox" with version "1.19-windows"
+00:52:00.675518          Finished saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox"
+00:52:00.681436          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:57:38.137530          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:57:38.145529          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:57:39.840067          Saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox" with version "1.19-windows"
+00:57:39.843573          Finished saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox"
+00:57:39.857228          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:57:39.869719          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:57:39.889774          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:57:42.364045          Saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox" with version "1.19-windows"
+00:57:42.367827          Finished saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox"
+00:57:42.372853          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={Saved screenshot thumbnail data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:57:42.375013 SaveState Saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox" with version "1.19-windows"
+00:57:42.377346 SaveState Finished saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox"
+00:57:42.383758          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:57:42.388233          ERROR [COM]: aRC=E_INVALIDARG (0x80070057) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={Properties with TRANSIENT or TRANSRESET flag cannot be set or modified if VM is not running}, preserve=false aResultDetail=0
+00:57:42.414745          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:57:43.375795          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:58:32.532043          Launched VM: 3685440992 pid: 15296 (0x3bc0) frontend: GUI/Qt name: UbuntuServerAlpha
+00:58:32.539311          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:58:39.032028          Platform architecture set to 'x86'
+00:58:39.193895          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:58:40.979444          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:58:45.919052          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:58:45.940642          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:58:46.031668          netIfIsWireless: CreateFile on '\\.\{ED22CEC9-7DB4-4192-ADD1-0D82C70E1EB8}' failed with rcWin=2 (0x2) - ignoring
+00:58:46.032330          netIfIsWireless: CreateFile on '\\.\{FD33FAB9-2313-450D-BBF9-F41A4138DA5A}' failed with rcWin=2 (0x2) - ignoring
+00:58:46.072362          ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={cadef0a2-a1a9-4ac2-8e80-c049af69dac8} aComponent={DHCPServerWrap} aText={Cannot start DHCP server because it is already running (pid 00002d18)}, preserve=false aResultDetail=-51
+00:58:46.095059          Saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox" with version "1.19-windows"
+00:58:46.097976          Finished saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox"
+00:58:46.104978          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:58:46.580701          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:58:46.582487          HostDnsMonitorProxy::GetDomainName: no domain set
+00:58:46.582518          HostDnsMonitorProxy::GetNameServers:
+00:58:46.582523            name server 1: 24.201.245.77
+00:58:46.582526            name server 2: 24.200.243.189
+00:58:46.582553          HostDnsMonitorProxy::GetSearchStrings:
+00:58:46.582558            no search string entries
+00:58:48.974424          Saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox" with version "1.19-windows"
+00:58:48.978811          Finished saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox"
+00:58:49.007546          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:58:49.013248          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:59:04.243835          Saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox" with version "1.19-windows"
+00:59:04.244219 createDelete VISO: Handling file 'C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\Unattended-977aa7cc-4ab4-4aed-9547-b3b6856c3cc6-aux-iso.viso' references
+00:59:04.244898 createDelete VISO: file 'C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\Unattended-977aa7cc-4ab4-4aed-9547-b3b6856c3cc6-isolinux-isolinux.cfg' deleted
+00:59:04.245087 createDelete VISO: file 'C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\Unattended-977aa7cc-4ab4-4aed-9547-b3b6856c3cc6-isolinux-txt.cfg' deleted
+00:59:04.245301 createDelete VISO: file 'C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\Unattended-977aa7cc-4ab4-4aed-9547-b3b6856c3cc6-user-data' deleted
+00:59:04.246015 createDelete VISO: file 'C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\Unattended-977aa7cc-4ab4-4aed-9547-b3b6856c3cc6-vboxpostinstall.sh' deleted
+00:59:04.248726          Finished saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox"
+00:59:05.803044          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:59:05.851104          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:59:09.698761          Saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox" with version "1.19-windows"
+00:59:09.701433          Finished saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox"
+00:59:09.734818          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:59:09.745726          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:59:09.761284          Saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox" with version "1.19-windows"
+00:59:09.766211          Finished saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox"
+00:59:09.780098          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:59:09.784450          ERROR [COM]: aRC=E_INVALIDARG (0x80070057) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={Properties with TRANSIENT or TRANSRESET flag cannot be set or modified if VM is not running}, preserve=false aResultDetail=0
+00:59:09.791133          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:59:10.788347          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:59:12.027276          Platform architecture set to 'x86'
+00:59:12.031172          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:59:12.050547          netIfIsWireless: CreateFile on '\\.\{ED22CEC9-7DB4-4192-ADD1-0D82C70E1EB8}' failed with rcWin=2 (0x2) - ignoring
+00:59:12.051291          netIfIsWireless: CreateFile on '\\.\{FD33FAB9-2313-450D-BBF9-F41A4138DA5A}' failed with rcWin=2 (0x2) - ignoring
+00:59:12.069764          netIfIsWireless: CreateFile on '\\.\{ED22CEC9-7DB4-4192-ADD1-0D82C70E1EB8}' failed with rcWin=2 (0x2) - ignoring
+00:59:12.072024          netIfIsWireless: CreateFile on '\\.\{FD33FAB9-2313-450D-BBF9-F41A4138DA5A}' failed with rcWin=2 (0x2) - ignoring
+00:59:12.217790          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:59:26.469594          Platform architecture set to 'x86'
+00:59:26.506047          Saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox" with version "1.19-windows"
+00:59:26.509017          Finished saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox"
+00:59:26.540970          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:59:44.715899          Launched VM: 3676049248 pid: 24420 (0x5f64) frontend: GUI/Qt name: UbuntuServerAlpha
+00:59:44.742213          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:59:51.258737          Platform architecture set to 'x86'
+00:59:51.411351          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:59:52.856324          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:59:57.664344          netIfIsWireless: CreateFile on '\\.\{ED22CEC9-7DB4-4192-ADD1-0D82C70E1EB8}' failed with rcWin=2 (0x2) - ignoring
+00:59:57.664958          netIfIsWireless: CreateFile on '\\.\{FD33FAB9-2313-450D-BBF9-F41A4138DA5A}' failed with rcWin=2 (0x2) - ignoring
+00:59:57.763193          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:59:57.764880          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:59:57.773744          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+00:59:57.802009          netIfIsWireless: CreateFile on '\\.\{ED22CEC9-7DB4-4192-ADD1-0D82C70E1EB8}' failed with rcWin=2 (0x2) - ignoring
+00:59:57.804745          netIfIsWireless: CreateFile on '\\.\{FD33FAB9-2313-450D-BBF9-F41A4138DA5A}' failed with rcWin=2 (0x2) - ignoring
+00:59:57.856565          ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={cadef0a2-a1a9-4ac2-8e80-c049af69dac8} aComponent={DHCPServerWrap} aText={Cannot start DHCP server because it is already running (pid 00002d18)}, preserve=false aResultDetail=-51
+00:59:57.882402          Saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox" with version "1.19-windows"
+00:59:57.884997          Finished saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox"
+00:59:57.891075          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:59:58.260667          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:59:58.262122          HostDnsMonitorProxy::GetDomainName: no domain set
+00:59:58.262158          HostDnsMonitorProxy::GetNameServers:
+00:59:58.262163            name server 1: 24.201.245.77
+00:59:58.262166            name server 2: 24.200.243.189
+00:59:58.262203          HostDnsMonitorProxy::GetSearchStrings:
+00:59:58.262207            no search string entries
+00:59:58.280244          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:59:58.299842          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:00:01.125595          Saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox" with version "1.19-windows"
+01:00:01.128946          Finished saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox"
+01:00:01.134527          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:00:01.654633          Saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox" with version "1.19-windows"
+01:00:01.656455          Finished saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox"
+01:00:01.662575          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:00:05.608264          Saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox" with version "1.19-windows"
+01:00:05.610987          Finished saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox"
+01:00:05.615808          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:00:07.687087          Saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox" with version "1.19-windows"
+01:00:07.690281          Finished saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox"
+01:00:07.696513          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:04:36.455316          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:04:36.499540          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+01:04:38.509500          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+01:04:38.519601          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:04:38.541830          Saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox" with version "1.19-windows"
+01:04:38.544629          Finished saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox"
+01:04:38.561016          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+01:04:38.566266          ERROR [COM]: aRC=E_INVALIDARG (0x80070057) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={Properties with TRANSIENT or TRANSRESET flag cannot be set or modified if VM is not running}, preserve=false aResultDetail=0
+01:04:38.572384          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:04:39.575101          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:04:40.081587          Platform architecture set to 'x86'
+01:04:40.084039          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:04:40.167247          netIfIsWireless: CreateFile on '\\.\{ED22CEC9-7DB4-4192-ADD1-0D82C70E1EB8}' failed with rcWin=2 (0x2) - ignoring
+01:04:40.168166          netIfIsWireless: CreateFile on '\\.\{FD33FAB9-2313-450D-BBF9-F41A4138DA5A}' failed with rcWin=2 (0x2) - ignoring
+01:04:40.186417          netIfIsWireless: CreateFile on '\\.\{ED22CEC9-7DB4-4192-ADD1-0D82C70E1EB8}' failed with rcWin=2 (0x2) - ignoring
+01:04:40.187199          netIfIsWireless: CreateFile on '\\.\{FD33FAB9-2313-450D-BBF9-F41A4138DA5A}' failed with rcWin=2 (0x2) - ignoring
+01:04:40.244873          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:05:22.130246          Saving settings file "C:\Users\Joun\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:05:22.133481          Finished saving settings file "C:\Users\Joun\.VirtualBox\VirtualBox.xml"
+01:05:22.482276          Saving settings file "C:\Users\Joun\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:05:22.486401          Finished saving settings file "C:\Users\Joun\.VirtualBox\VirtualBox.xml"
+01:05:26.770840          Saving settings file "C:\Users\Joun\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:05:26.774093          Finished saving settings file "C:\Users\Joun\.VirtualBox\VirtualBox.xml"
+01:05:26.775155          Saving settings file "C:\Users\Joun\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:05:26.776817          Finished saving settings file "C:\Users\Joun\.VirtualBox\VirtualBox.xml"
+01:09:38.107603          Platform architecture set to 'x86'
+01:09:38.148706          Saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox" with version "1.19-windows"
+01:09:38.151709          Finished saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox"
+01:09:38.182395          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:09:40.304459          Platform architecture set to 'x86'
+01:09:40.307617          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:09:40.393686          netIfIsWireless: CreateFile on '\\.\{ED22CEC9-7DB4-4192-ADD1-0D82C70E1EB8}' failed with rcWin=2 (0x2) - ignoring
+01:09:40.394499          netIfIsWireless: CreateFile on '\\.\{FD33FAB9-2313-450D-BBF9-F41A4138DA5A}' failed with rcWin=2 (0x2) - ignoring
+01:09:40.418352          netIfIsWireless: CreateFile on '\\.\{ED22CEC9-7DB4-4192-ADD1-0D82C70E1EB8}' failed with rcWin=2 (0x2) - ignoring
+01:09:40.419063          netIfIsWireless: CreateFile on '\\.\{FD33FAB9-2313-450D-BBF9-F41A4138DA5A}' failed with rcWin=2 (0x2) - ignoring
+01:09:40.486389          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:09:50.413694          Launched VM: 3676012048 pid: 22228 (0x56d4) frontend: GUI/Qt name: UbuntuServerAlpha
+01:09:50.451381          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:09:57.171341          Platform architecture set to 'x86'
+01:09:57.319774          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:09:58.720310          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+01:10:03.260862          netIfIsWireless: CreateFile on '\\.\{ED22CEC9-7DB4-4192-ADD1-0D82C70E1EB8}' failed with rcWin=2 (0x2) - ignoring
+01:10:03.261569          netIfIsWireless: CreateFile on '\\.\{FD33FAB9-2313-450D-BBF9-F41A4138DA5A}' failed with rcWin=2 (0x2) - ignoring
+01:10:03.356579          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+01:10:03.379570          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:10:03.384852          netIfIsWireless: CreateFile on '\\.\{ED22CEC9-7DB4-4192-ADD1-0D82C70E1EB8}' failed with rcWin=2 (0x2) - ignoring
+01:10:03.385549          netIfIsWireless: CreateFile on '\\.\{FD33FAB9-2313-450D-BBF9-F41A4138DA5A}' failed with rcWin=2 (0x2) - ignoring
+01:10:03.434316          ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={cadef0a2-a1a9-4ac2-8e80-c049af69dac8} aComponent={DHCPServerWrap} aText={Cannot start DHCP server because it is already running (pid 00002d18)}, preserve=false aResultDetail=-51
+01:10:03.456932          Saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox" with version "1.19-windows"
+01:10:03.459122          Finished saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox"
+01:10:03.495488          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:10:03.877825          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+01:10:03.878457          HostDnsMonitorProxy::GetDomainName: no domain set
+01:10:03.878497          HostDnsMonitorProxy::GetNameServers:
+01:10:03.878502            name server 1: 24.201.245.77
+01:10:03.878510            name server 2: 24.200.243.189
+01:10:03.878539          HostDnsMonitorProxy::GetSearchStrings:
+01:10:03.878543            no search string entries
+01:10:03.893789          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+01:10:03.926682          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:10:06.749600          Saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox" with version "1.19-windows"
+01:10:06.752743          Finished saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox"
+01:10:06.759435          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:10:06.782131          netIfIsWireless: CreateFile on '\\.\{ED22CEC9-7DB4-4192-ADD1-0D82C70E1EB8}' failed with rcWin=2 (0x2) - ignoring
+01:10:06.783221          netIfIsWireless: CreateFile on '\\.\{FD33FAB9-2313-450D-BBF9-F41A4138DA5A}' failed with rcWin=2 (0x2) - ignoring
+01:10:06.802849          netIfIsWireless: CreateFile on '\\.\{ED22CEC9-7DB4-4192-ADD1-0D82C70E1EB8}' failed with rcWin=2 (0x2) - ignoring
+01:10:06.804042          netIfIsWireless: CreateFile on '\\.\{FD33FAB9-2313-450D-BBF9-F41A4138DA5A}' failed with rcWin=2 (0x2) - ignoring
+01:10:06.818253          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:10:07.281467          Saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox" with version "1.19-windows"
+01:10:07.283483          Finished saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox"
+01:10:07.287929          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:10:07.307356          netIfIsWireless: CreateFile on '\\.\{ED22CEC9-7DB4-4192-ADD1-0D82C70E1EB8}' failed with rcWin=2 (0x2) - ignoring
+01:10:07.308991          netIfIsWireless: CreateFile on '\\.\{FD33FAB9-2313-450D-BBF9-F41A4138DA5A}' failed with rcWin=2 (0x2) - ignoring
+01:10:07.331459          netIfIsWireless: CreateFile on '\\.\{ED22CEC9-7DB4-4192-ADD1-0D82C70E1EB8}' failed with rcWin=2 (0x2) - ignoring
+01:10:07.332114          netIfIsWireless: CreateFile on '\\.\{FD33FAB9-2313-450D-BBF9-F41A4138DA5A}' failed with rcWin=2 (0x2) - ignoring
+01:10:07.348944          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:10:10.280853          Saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox" with version "1.19-windows"
+01:10:10.283011          Finished saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox"
+01:10:10.290152          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:10:10.309542          netIfIsWireless: CreateFile on '\\.\{ED22CEC9-7DB4-4192-ADD1-0D82C70E1EB8}' failed with rcWin=2 (0x2) - ignoring
+01:10:10.310190          netIfIsWireless: CreateFile on '\\.\{FD33FAB9-2313-450D-BBF9-F41A4138DA5A}' failed with rcWin=2 (0x2) - ignoring
+01:10:10.325536          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:10:10.326119          netIfIsWireless: CreateFile on '\\.\{ED22CEC9-7DB4-4192-ADD1-0D82C70E1EB8}' failed with rcWin=2 (0x2) - ignoring
+01:10:10.327981          netIfIsWireless: CreateFile on '\\.\{FD33FAB9-2313-450D-BBF9-F41A4138DA5A}' failed with rcWin=2 (0x2) - ignoring
+01:10:12.326546          Saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox" with version "1.19-windows"
+01:10:12.330206          Finished saving settings file "C:\Users\Joun\VirtualBox VMs\UbuntuServerAlpha\UbuntuServerAlpha.vbox"
+01:10:12.345767          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:10:12.364265          netIfIsWireless: CreateFile on '\\.\{ED22CEC9-7DB4-4192-ADD1-0D82C70E1EB8}' failed with rcWin=2 (0x2) - ignoring
+01:10:12.364929          netIfIsWireless: CreateFile on '\\.\{FD33FAB9-2313-450D-BBF9-F41A4138DA5A}' failed with rcWin=2 (0x2) - ignoring
+01:10:12.382895          netIfIsWireless: CreateFile on '\\.\{ED22CEC9-7DB4-4192-ADD1-0D82C70E1EB8}' failed with rcWin=2 (0x2) - ignoring
+01:10:12.383527          netIfIsWireless: CreateFile on '\\.\{FD33FAB9-2313-450D-BBF9-F41A4138DA5A}' failed with rcWin=2 (0x2) - ignoring
+01:10:12.411864          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:14:06.434973 dns-monitor HostDnsMonitor: updating information
+01:14:06.435002 dns-monitor HostDnsMonitor: unchanged
+02:14:06.433602 dns-monitor HostDnsMonitor: updating information
+02:14:06.433684 dns-monitor HostDnsMonitor: unchanged
+03:14:06.442215 dns-monitor HostDnsMonitor: updating information
+03:14:06.442418 dns-monitor HostDnsMonitor: unchanged
+03:40:43.702276 dns-monitor HostDnsMonitor: updating information
+03:40:43.702362 dns-monitor HostDnsMonitor: unchanged
