@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Jeu de dés multijoueur</title>
+  <script src="lib/MultiNode.js"></script>
+  <script defer src="JeuDes.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 30px;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+    }
+
+    form {
+      margin-bottom: 20px;
+    }
+
+    fieldset {
+      margin-bottom: 15px;
+      padding: 12px;
+    }
+
+    input[type="text"] {
+      padding: 8px;
+      min-width: 220px;
+    }
+
+    input[type="submit"], button {
+      padding: 8px 14px;
+      cursor: pointer;
+    }
+
+    #status {
+      font-weight: bold;
+      margin: 15px 0;
+      color: #0b5;
+    }
+
+    #log {
+      margin: 15px 0;
+      padding: 10px;
+      border: 1px solid #ccc;
+      min-height: 40px;
+      background: #fafafa;
+      white-space: pre-line;
+    }
+
+    .dice-row {
+      display: flex;
+      gap: 10px;
+      margin: 15px 0;
+    }
+
+    .die-box {
+      width: 60px;
+      height: 60px;
+      border: 2px solid #333;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      font-weight: bold;
+      background: #fff;
+    }
+
+    #end-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.5);
+      display: none;
+      align-items: center;
+      justify-content: center;
+    }
+
+    #end-backdrop.show {
+      display: flex;
+    }
+
+    .modal {
+      background: white;
+      padding: 24px;
+      border-radius: 12px;
+      width: 320px;
+      text-align: center;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.25);
+    }
+
+    .modal h2 {
+      margin-top: 0;
+    }
+
+    .modal-actions {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 18px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Jeu de dés multijoueur</h1>
+
+  <div id="status">En attente de connexion...</div>
+  <div id="log">Le gagnant sera affiché ici à la fin de la partie.</div>
+
+  <form id="formulaire-authentification">
+    <fieldset>
+      <label for="champ-pseudonyme">Pseudonyme</label>
+      <input type="text" id="champ-pseudonyme" required />
+      <input type="submit" value="Authentification" id="bouton-authentification" />
+    </fieldset>
+  </form>
+
+  <form id="formulaire-jeu">
+    <fieldset>
+      <legend>Valeurs des dés</legend>
+      <input type="text" id="champ-point-de-de" readonly />
+    </fieldset>
+
+    <div class="dice-row">
+      <div id="die1" class="die-box">-</div>
+      <div id="die2" class="die-box">-</div>
+    </div>
+
+    <input type="submit" value="Lancer" id="bouton-lancer" />
+
+    <fieldset>
+      <legend id="information-autre-joueur">Valeurs des dés {nom-autre-joueur}</legend>
+      <input type="text" id="champ-point-de-de-autre-joueur" readonly />
+    </fieldset>
+
+    <fieldset>
+      <legend>Nombre de tours</legend>
+      <input type="text" id="champ-nombre-tour" value="" readonly />
+    </fieldset>
+  </form>
+
+  <h3>Scores :</h3>
+  <ul id="liste-scores"></ul>
+
+  <div id="end-backdrop">
+    <div class="modal">
+      <h2 id="end-title">Fin de partie</h2>
+      <p id="end-text">Un gagnant sera annoncé ici.</p>
+
+      <div class="modal-actions">
+        <button id="btn-close" type="button">Fermer</button>
+        <button id="btn-replay" type="button">Rejouer</button>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
